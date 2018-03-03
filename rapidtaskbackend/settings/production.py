@@ -15,3 +15,5 @@ DATABASES = {
         'PORT': os.environ['RDS_PORT']
     },
 }
+
+SECRET_KEY = os.environ("DJANGO_SECRET_KEY")
