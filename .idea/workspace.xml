@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c3184b5-0cc7-4ab3-8eaa-567ee8670609" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/rapidtaskbackend/settings/production.py" afterPath="$PROJECT_DIR$/rapidtaskbackend/settings/production.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,8 +43,8 @@
       <file leaf-file-name="production.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rapidtaskbackend/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+            <state relative-caret-position="1518">
+              <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -150,9 +151,9 @@
         <option value="$PROJECT_DIR$/docs/deployment.md" />
         <option value="$PROJECT_DIR$/docs/architechture.md" />
         <option value="$PROJECT_DIR$/rapidtaskbackend/settings/base.py" />
-        <option value="$PROJECT_DIR$/rapidtaskbackend/settings/production.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/rapidtaskbackend/wsgi.py" />
+        <option value="$PROJECT_DIR$/rapidtaskbackend/settings/production.py" />
       </list>
     </option>
   </component>
@@ -372,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520134501868</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added web security features and email linked">
+      <created>1520134643618</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1520134643618</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -694,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rapidtaskbackend/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        <state relative-caret-position="1518">
+          <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

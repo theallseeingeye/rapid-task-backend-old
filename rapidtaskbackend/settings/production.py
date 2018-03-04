@@ -61,6 +61,7 @@ SECURE_SSL_REDIRECT = True
 X_FRAME_OPTIONS = 'DENY' # Change to SAMEORIGIN if we choose to use iframes with google maps.
 
 CORS_ORIGIN_WHITELIST = (
+    'backend-init-deploy-test.us-west-2.elasticbeanstalk.com',
     'www.rapidtask.com',
     'rapidtask.com',
 )
