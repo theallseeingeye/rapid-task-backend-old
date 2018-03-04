@@ -44,9 +44,14 @@ INSTALLED_APPS = [
     # Third Party Libraries
     'rest_framework',
     'admin_honeypot',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
+    # Third Party:
+    # This middleware needs to be placed the highest.
+    'corsheaders.middleware.CorsMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

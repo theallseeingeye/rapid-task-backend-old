@@ -87,20 +87,19 @@ The installed packages must be written here with explanation for it's use. You m
 * django-rest-framework-jwt 1.11.0   
     This attaches the JWT tokens throught the REST Framework. This includes the pyJWT. http://getblimp.github.io/django-rest-framework-jwt/
     * License: MIT
-
 * awsebcli
     NOT TO BE IN THE PACKAGE- ENSURE! OR DEPLOYMENT WILL CAUSE ISSUES. Install into the global environment
     This is Amazon's command line interface. Required to host the backend.  
-    
+* django-admin-honeypot  
+    This is to hide the default admin link for the django. This will log anyone who tries to access  /admin/ site  
+    * License: MIT  
 
 Working on adding these:
 * djoser  
     This is a package that handles the basic registration and user authentication info in REST format.
     https://github.com/sunscrapers/djoser  
     * License: MIT
-* django-admin-honeypot  
-    This is to hide the default admin link for the django. This will log anyone who tries to access  /admin/ site  
-    * License: MIT
+
 * django-cors-headers 2.1.0
     This allows the CORS headers to the frontend. Easy implementation of cross-domain requests for REST.
     * License: Free and open

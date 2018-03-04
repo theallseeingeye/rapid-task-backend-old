@@ -13,7 +13,7 @@ deployment security ```python manage.py check --deploy```
 
 ### To Re-Deploy to Existing
 
-Simply in the environment type: `eb deploy`
+Simply in the environment type: `eb deploy` and the name of the environment. example: `backend-init-deploy-test`
 
 ### New Deployment Steps
 
