@@ -38,12 +38,12 @@ ADMIN_HONEYPOT_EMAIL_ADMIN = True
 # Django email settings
 # Note: This will need to be changed for production setting using a different email service.
 # Google is not a transactional email service and not made for web applications.
-EMAIL_BACKEND = 'django.cor.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'sikstrom@rapidtask.com'
-EMAIL_HOST_PASSWORD = os.environ['EMAIL_PASSWORD']
-EMAIL_USE_TLS = True
+# EMAIL_BACKEND = 'django.cor.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'sikstrom@rapidtask.com'
+# EMAIL_HOST_PASSWORD = os.environ['EMAIL_PASSWORD']
+# EMAIL_USE_TLS = True
 # EMAIL_USE_SSL = True
 # EMAIL_SSL_CERTFILE = None
 # EMAIL_SSL_KEYFILE = None
