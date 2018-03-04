@@ -25,11 +25,11 @@ SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 
 # Forces the use of cookies over HTTPS
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+# SESSION_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
 
 # This prevents access to the stored data from JavaScript
-SESSION_COOKIE_HTTPONLY = True
+# SESSION_COOKIE_HTTPONLY = True
 
 # Django honeypot admin page settings
 # This will send any logged attempts to the /admin page to all the administrator's emails.
