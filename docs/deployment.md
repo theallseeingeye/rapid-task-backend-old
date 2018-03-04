@@ -19,7 +19,8 @@ Simply in the environment type: `eb deploy`
 
 ## Gotchas to watch for:
 * Make sure we do NOT install awebcli into the local environment, but globally.
-* Make sure you are deactivated and not in the environment when applying eb commands
+* Make sure you are deactivated and not in the environment when applying eb commands.
+* Make sure you make commits to any changes for `eb deploy` to register changes.
 
 
 * Now we need to use the EB Command Line Interface  

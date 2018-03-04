@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     # Third Party Libraries
     'rest_framework',
+    'admin_honeypot',
 ]
 
 MIDDLEWARE = [

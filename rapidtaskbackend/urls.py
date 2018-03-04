@@ -21,7 +21,11 @@ api_urls = [
 ]
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    # url patterns with honey-pot admin page
+    url(r'^admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
+
+    # Django Admin access url
+    url(r'^rapidtaskadminaccess/', admin.site.urls),
 
     # Rest Framework
     url(r'^', include(api_urls)),
