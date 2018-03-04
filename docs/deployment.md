@@ -20,11 +20,11 @@ Simply in the environment type: `eb deploy`
 ## Gotchas to watch for:
 * Make sure we do NOT install awebcli into the local environment, but globally.
 * Make sure you are deactivated and not in the environment when applying eb commands
-*  
+
 
 * Now we need to use the EB Command Line Interface  
 
-Requirement: awsebcli 
+Requirements: awsebcli and a `.ebextension` folder with appropriate settings to deploy.
 
 awsebcli should be installed globally, NOT in the virtual environment. Verify by ```eb --version``` if not, 
 ```pip install awsebcli```. 
@@ -68,7 +68,12 @@ awsebcli should be installed globally, NOT in the virtual environment. Verify by
     * Select the Environment you wish to deploy to.
     * Then it is time to deploy- type `eb deploy` to deploy the changes. Make sure you are on the right environment.
     
-* There are multiple environments to choose from from testing to staging and production.
+* There are multiple environments to choose from from testing to staging and production.  
+    1. `rapid-task-backend-env-test` This is where you test the newly changed code to ensure that everything is working.
+        This environment uses a simple generic AWS server- Not our official database.  
+    2. `rapid-task-backend-env-staging` This is where you have production ready settings and want to make sure its ready
+        before deploying to production. This is where we practice test merging a copied backup of production database  
+    3. `rapid-task-backend-env-production` ONLY for code that passed staging can be applied here. USES PRODUCTION DATABASE.  
    
 ## Deployment Common Errors:
 * If you `eb deploy` and receive a git submodules error that it may be broken. In your `.elasticbeanstalk/config.yml`
