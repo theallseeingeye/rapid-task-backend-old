@@ -24,11 +24,11 @@ SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 
 # Forces the use of cookies over HTTPS
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+# SESSION_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
 
 # This prevents access to the stored data from JavaScript
-SESSION_COOKIE_HTTPONLY = True
+# SESSION_COOKIE_HTTPONLY = True
 
 # Django honeypot admin page settings
 # This will send any logged attempts to the /admin page to all the administrator's emails.
@@ -54,11 +54,11 @@ ADMIN_HONEYPOT_EMAIL_ADMIN = True
 # SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 # SECURE_HSTS_PRELOAD = True
 #
-SECURE_CONTENT_TYPE_NOSNIFF = True # Ensures that browsers to identify content types correctly.
-SECURE_BROWSER_XSS_FILTER = True # Helps prevents XSS attacks
-SECURE_SSL_REDIRECT = True
+# SECURE_CONTENT_TYPE_NOSNIFF = True # Ensures that browsers to identify content types correctly.
+# SECURE_BROWSER_XSS_FILTER = True # Helps prevents XSS attacks
+# SECURE_SSL_REDIRECT = True
 
-X_FRAME_OPTIONS = 'DENY' # Change to SAMEORIGIN if we choose to use iframes with google maps.
+# X_FRAME_OPTIONS = 'DENY' # Change to SAMEORIGIN if we choose to use iframes with google maps.
 #
 # CORS_ORIGIN_WHITELIST = (
 #     'backend-init-deploy-test.us-west-2.elasticbeanstalk.com',

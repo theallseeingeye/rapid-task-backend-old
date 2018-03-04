@@ -50,8 +50,8 @@
       <file leaf-file-name="production.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rapidtaskbackend/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="2" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="234">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -514,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520145378660</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added web security features and email linked">
+      <created>1520145390537</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1520145390537</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -845,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rapidtaskbackend/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="2" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="234">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
