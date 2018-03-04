@@ -26,9 +26,9 @@ import os
 class Command(BaseCommand):
 
     def handle(self, *args, **options):
-        if not User.objects.filter(username=os.environ("SUPERUSERNAME")).exists():
+        if not User.objects.filter(username=os.environ["SUPERUSERNAME"]).exists():
             User.objects.create_superuser(
-                os.environ('SUPERUSERNAME'),
-                os.environ('SUPERUSEREMAIL'),
-                os.environ('SUPERUSERPASSWORD')
+                os.environ['SUPERUSERNAME'],
+                os.environ['SUPERUSEREMAIL'],
+                os.environ['SUPERUSERPASSWORD']
             )
