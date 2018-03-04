@@ -3,7 +3,7 @@ import os
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['poopyassworks.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['backend-init-deploy-test.us-west-2.elasticbeanstalk.com']
 
 
 DATABASES = {
