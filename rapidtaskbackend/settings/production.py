@@ -50,9 +50,9 @@ ADMIN_HONEYPOT_EMAIL_ADMIN = True
 
 # HTTP Strict Transport Security - Forces browsers to use HTTPS
 # The time is telling the browser how long to remember the forced redirect to HTTPS
-SECURE_HSTS_SECONDS = 3600 # This is 1 hour- change to one year after testing is done. Google wants to see 63072000 after all the testings are done.
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
+# SECURE_HSTS_SECONDS = 3600 # This is 1 hour- change to one year after testing is done. Google wants to see 63072000 after all the testings are done.
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+# SECURE_HSTS_PRELOAD = True
 #
 SECURE_CONTENT_TYPE_NOSNIFF = True # Ensures that browsers to identify content types correctly.
 SECURE_BROWSER_XSS_FILTER = True # Helps prevents XSS attacks
