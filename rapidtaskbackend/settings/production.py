@@ -5,7 +5,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'backend-init-deploy-test.us-west-2.elasticbeanstalk.com',
-    '.rapidtask.com'
+    '.rapidtask.com',
+    'localhost'
     ]
 
 
