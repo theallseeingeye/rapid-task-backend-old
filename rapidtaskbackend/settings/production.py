@@ -51,15 +51,15 @@ EMAIL_USE_TLS = True
 
 # HTTP Strict Transport Security - Forces browsers to use HTTPS
 # The time is telling the browser how long to remember the forced redirect to HTTPS
-SECURE_HSTS_SECONDS = 3600 # This is 1 hour- change to one year after testing is done. Google wants to see 63072000 after all the testings are done.
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
+# SECURE_HSTS_SECONDS = 3600 # This is 1 hour- change to one year after testing is done. Google wants to see 63072000 after all the testings are done.
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+# SECURE_HSTS_PRELOAD = True
 
-SECURE_CONTENT_TYPE_NOSNIFF = True # Ensures that browsers to identify content types correctly.
-SECURE_BROWSER_XSS_FILTER = True # Helps prevents XSS attacks
-SECURE_SSL_REDIRECT = True
+# SECURE_CONTENT_TYPE_NOSNIFF = True # Ensures that browsers to identify content types correctly.
+# SECURE_BROWSER_XSS_FILTER = True # Helps prevents XSS attacks
+# SECURE_SSL_REDIRECT = True
 
-X_FRAME_OPTIONS = 'DENY' # Change to SAMEORIGIN if we choose to use iframes with google maps.
+# X_FRAME_OPTIONS = 'DENY' # Change to SAMEORIGIN if we choose to use iframes with google maps.
 #
 # CORS_ORIGIN_WHITELIST = (
 #     'backend-init-deploy-test.us-west-2.elasticbeanstalk.com',
