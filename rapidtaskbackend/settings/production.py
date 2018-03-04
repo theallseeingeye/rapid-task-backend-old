@@ -1,4 +1,5 @@
 from .base import *
+import os
 
 DEBUG = True
 
@@ -16,4 +17,4 @@ DATABASES = {
     },
 }
 
-SECRET_KEY = os.environ("DJANGO_SECRET_KEY")
+SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
